@@ -15,9 +15,13 @@ document.addEventListener("change", (e) => {
 
 document.addEventListener("click", (e) => {
     if (e.target === submit) {
+        e.preventDefault(); // Evita que se recargue la página
         if (username.value !== "" || password.value !== "") {
-            e.preventDefault();
-            window.location.href = "home.html" + "?username=" + username.value;
+            localStorage.setItem("username", username.value);
+            console.log(username.value) // Guarda el usuario en localStorage
+            window.location.href = "home.html"; // Redirige a home.html
+        } else {
+            alert("Por favor, rellena los campos");
         }
     }
 });
