@@ -1,0 +1,32 @@
+[
+    {
+      "nombre": "The Legend of Zelda: Breath of the Wild",
+      "precio": 59.99,
+      "stock": 12,
+      "imagen": "https://static.posters.cz/image/750/pinturas-sobre-lienzo-the-legend-of-zelda-breath-of-the-wild-sunset-i111061.jpg"
+    },
+    {
+      "nombre": "Elden Ring",
+      "precio": 49.99,
+      "stock": 8,
+      "imagen": "https://example.com/elden-ring.jpg"
+    },
+    {
+      "nombre": "God of War Ragnarök",
+      "precio": 69.99,
+      "stock": 5,
+      "imagen": "https://example.com/god-of-war-ragnarok.jpg"
+    },
+    {
+      "nombre": "Red Dead Redemption 2",
+      "precio": 39.99,
+      "stock": 15,
+      "imagen": "https://example.com/red-dead-redemption-2.jpg"
+    },
+    {
+      "nombre": "Super Mario Odyssey",
+      "precio": 49.99,
+      "stock": 10,
+      "imagen": "https://example.com/super-mario-odyssey.jpg"
+    }
+  ]
